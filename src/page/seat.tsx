@@ -39,9 +39,9 @@ function Seat() {
 
 	return (
 		<S.Seats>
-			{Object.values(seatArr).map(obj => {
+			{Object.values(seatArr).map((obj, index) => {
 				return (
-					<S.SeatBoxWrap>
+					<S.SeatBoxWrap addMargin={index % 2 === 1}>
 						{obj.map(member => {
 							return <SeatController member={member} />;
 						})}

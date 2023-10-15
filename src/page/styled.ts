@@ -55,11 +55,17 @@ export const Seats = styled.div`
 	user-select: none;
 `;
 
-export const SeatBoxWrap = styled.div`
+export const SeatBoxWrap = styled.div<{ addMargin: Boolean }>`
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
 	gap: 7px;
+
+	${({ addMargin }) =>
+		addMargin &&
+		css`
+			margin-top: 20px;
+		`}
 `;
 
 export const SeatBox = styled.div<{ role?: ERoleType; isNew?: boolean }>`
