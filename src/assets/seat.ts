@@ -4,12 +4,12 @@ export const seats: { seatInfo: { [key: string]: ISeat[] } } = {
 	seatInfo: {
 		'ROW-1': [
 			{
-				name: '조아라',
+				name: '장문종',
 				position: '매니저',
 				part: ERoleType.Design,
-				label: 'Designer',
+				label: 'VMD',
 				web: '',
-				page: 'https://www.notion.so/wefun-platform/about-39859f42061a4109bfad3d10a1c76587?pvs=4',
+				page: 'https://www.notion.so/wefun-platform/about-29ee90710d1343ff875ea4a4461a9dba?pvs=4',
 			},
 			{
 				name: '장이지',
@@ -33,12 +33,12 @@ export const seats: { seatInfo: { [key: string]: ISeat[] } } = {
 		],
 		'ROW-2': [
 			{
-				name: '장문종',
+				name: '조아라',
 				position: '매니저',
 				part: ERoleType.Design,
-				label: 'VMD',
+				label: 'Designer',
 				web: '',
-				page: 'https://www.notion.so/wefun-platform/about-29ee90710d1343ff875ea4a4461a9dba?pvs=4',
+				page: 'https://www.notion.so/wefun-platform/about-39859f42061a4109bfad3d10a1c76587?pvs=4',
 			},
 			{
 				name: '이슬기',
