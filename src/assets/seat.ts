@@ -8,7 +8,7 @@ export const seats: { seatInfo: { [key: string]: ISeat[] } } = {
 				position: '매니저',
 				part: ERoleType.Design,
 				label: 'VMD',
-				web: '',
+				web: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F6e045bfa-e236-418d-a7bc-bda485d74f3f%2FKakaoTalk_20231017_181348414.jpg?table=block&id=81a54c68-746a-4239-a8b3-6aad65d991d2&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=2000&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-29ee90710d1343ff875ea4a4461a9dba?pvs=4',
 			},
 			{
@@ -16,7 +16,7 @@ export const seats: { seatInfo: { [key: string]: ISeat[] } } = {
 				position: '팀장',
 				part: ERoleType.Design,
 				label: 'Designer',
-				web: '',
+				web: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F428f0887-dfa7-4542-8633-ebed6e308880%2FUntitled.png?table=block&id=399cceca-e298-4656-89a7-2986a0f2c4ec&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-0f51826439214db3988301ef61ac7787',
 			},
 			{
@@ -93,7 +93,14 @@ export const seats: { seatInfo: { [key: string]: ISeat[] } } = {
 				web: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F10858051-bf7f-4e3a-b241-4ae2e91dfeef%2FUntitled.png?table=block&id=2028c4bb-f70e-486c-9da7-c749cc51b0c1&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-638668f7993a4913a7e4c92ef09a08f7',
 			},
-			{ name: '', position: '', part: ERoleType.Empty, label: '공석', web: '', page: '' },
+			{
+				name: '장요한',
+				position: '매니저',
+				part: ERoleType.Frontend,
+				label: 'Frontend',
+				web: '',
+				page: 'https://www.notion.so/wefun-platform/about-3bf5e61d2beb44efaa74e7dde8a66e50?pvs=4',
+			},
 			{ name: '', position: '', part: ERoleType.Empty, label: '공석', web: '', page: '' },
 		],
 		'ROW-4': [
