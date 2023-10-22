@@ -82,7 +82,7 @@ export const seats: { seatInfo: { [key: string]: ISeat[] } } = {
 				position: '매니저',
 				part: ERoleType.Frontend,
 				label: 'Frontend',
-				web: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd877cf47-7eb9-46ac-a02f-e3a924668a0a%2F211691f204096d74e3687ebd40e109ad-sticker.png?table=block&id=391f35f9-ddd0-4949-a579-ba8e006f916c&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
+				web: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F533d72d4-1a3a-4eb9-8109-7877a57fc43f%2F%25E1%2584%2589%25E1%2585%25A2_%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A6%25E1%2586%25A8%25E1%2584%2590%25E1%2585%25B3.png?table=block&id=20126daf-5b9d-4d97-b903-2d5060c5dc0f&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=1680&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://wefun-platform.notion.site/about-1b625dc5419a4b04bef33fb4b635a8d5',
 			},
 			{
@@ -109,7 +109,7 @@ export const seats: { seatInfo: { [key: string]: ISeat[] } } = {
 				position: 'Unit장',
 				part: ERoleType.Backend,
 				label: 'Backend',
-				web: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F288eea4b-6ff4-4663-a86c-ea22a929759d%2FUntitled.png?table=block&id=7139d7ce-fca1-424d-91b1-a6d90641acbd&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
+				web: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F9772a5f9-d5b5-48f0-ad5a-923494bb12fc%2F%25E1%2584%2589%25E1%2585%25A2_%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A6%25E1%2586%25A8%25E1%2584%2590%25E1%2585%25B3_(3).png?table=block&id=f52e774d-cf2e-477b-9c5b-0add0a1f3b6d&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=1680&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://wefun-platform.notion.site/about-e60d3e61956a431a85a87ea0a2e3373f',
 			},
 			{
@@ -133,7 +133,7 @@ export const seats: { seatInfo: { [key: string]: ISeat[] } } = {
 				position: '팀장',
 				part: ERoleType.Backend,
 				label: 'Backend',
-				web: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff4026f1b-033a-421f-a5a0-47f0ca56bfd1%2FUntitled.png?table=block&id=704c7c97-53f3-4832-ac0d-d315c6b01894&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
+				web: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F7e564790-205c-41cf-a133-8a6d627ef0c2%2F%25E1%2584%2589%25E1%2585%25A2_%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A6%25E1%2586%25A8%25E1%2584%2590%25E1%2585%25B3_(4).png?table=block&id=434e9f3a-c3f9-4598-8fe0-3e13884193c1&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=1680&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://wefun-platform.notion.site/about-c7866b1971164a1591ecdee814f30521',
 			},
 			{ name: '', position: '', part: ERoleType.Empty, label: '공석', web: '', page: '' },
