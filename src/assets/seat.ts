@@ -8,7 +8,7 @@ export const seats: { seatInfo: { [key: string]: ISeat[] } } = {
 				position: '매니저',
 				part: ERoleType.Design,
 				label: 'VMD',
-				web: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F6e045bfa-e236-418d-a7bc-bda485d74f3f%2FKakaoTalk_20231017_181348414.jpg?table=block&id=81a54c68-746a-4239-a8b3-6aad65d991d2&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=2000&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
+				web: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F8ba6ea7a-edcd-407f-9fb2-22bc33d90f5f%2F%25E1%2584%2589%25E1%2585%25A2_%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A6%25E1%2586%25A8%25E1%2584%2590%25E1%2585%25B3.png?table=block&id=bebc2592-a760-49cc-9d7c-d37cc24bfad5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=670&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-29ee90710d1343ff875ea4a4461a9dba?pvs=4',
 			},
 			{
