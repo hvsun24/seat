@@ -140,14 +140,7 @@ export const seats: { seatInfo: { [key: string]: ISeat[] } } = {
 			{ name: '', position: '', part: ERoleType.Empty, label: '공석', web: '', page: '' },
 		],
 		'ROW-5': [
-			{
-				name: '황남욱',
-				position: '매니저',
-				part: ERoleType.Backend,
-				label: 'Backend',
-				web: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fed0b999a-c962-411c-af47-6be24ed56596%2FUntitled.png?table=block&id=39b10d96-a09b-4daa-ae13-cfacb0f6f180&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
-				page: 'https://wefun-platform.notion.site/about-c21a819de4624e51ba6993b652e4cb56',
-			},
+			{ name: '', position: '', part: ERoleType.Empty, label: '공석', web: '', page: '' },
 			{
 				name: '김보민',
 				position: '매니저',
