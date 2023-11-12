@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { ERoleType } from './interface';
+import { ERoleType, ESize } from './interface';
 
 export const RoleTheme: { [key in ERoleType]: { color: string; backgroundColor: string } } = {
 	[ERoleType.Empty]: {
@@ -68,7 +68,7 @@ export const SeatBoxWrap = styled.div<{ addMargin: Boolean }>`
 		`}
 `;
 
-export const SeatBox = styled.div<{ role?: ERoleType; isNew?: boolean }>`
+export const SeatBox = styled.div<{ role?: ERoleType; isNew?: boolean; size: ESize }>`
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -78,7 +78,7 @@ export const SeatBox = styled.div<{ role?: ERoleType; isNew?: boolean }>`
 	border-radius: 10px;
 	box-shadow: 0 8px 11px -2px rgb(229 229 229);
 	cursor: pointer;
-	column-gap: 3px;
+	column-gap: 5px;
 
 	&:hover {
 		transform: rotate(-3deg);
@@ -145,9 +145,18 @@ export const SeatBox = styled.div<{ role?: ERoleType; isNew?: boolean }>`
 			`;
 		}
 	}}
+
+	${({ size }) => {
+		if (size === ESize.Small) {
+			return css`
+				width: 140px;
+				height: 55px;
+			`;
+		}
+	}}
 `;
 
-export const Image = styled.div<{ isNew?: boolean }>`
+export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
@@ -166,13 +175,22 @@ export const Image = styled.div<{ isNew?: boolean }>`
 		height: 100%;
 		object-fit: cover;
 	}
+
+	${({ size }) => {
+		if (size === ESize.Small) {
+			return css`
+				width: 40px;
+				height: 40px;
+			`;
+		}
+	}}
 `;
 
 export const Info = styled.div`
 	flex: 1;
 `;
 
-export const Role = styled.span<{ role: ERoleType }>`
+export const Role = styled.span<{ role: ERoleType; size: ESize }>`
 	display: inline-block;
 	font-weight: bold;
 	font-size: 12px;
@@ -188,9 +206,18 @@ export const Role = styled.span<{ role: ERoleType }>`
 			background-color: ${RoleTheme[role].backgroundColor};
 		`;
 	}}
+
+	${({ size }) => {
+		if (size === ESize.Small) {
+			return css`
+				font-size: 10px;
+				margin-bottom: 3px;
+			`;
+		}
+	}}
 `;
 
-export const Name = styled.span`
+export const Name = styled.span<{ size: ESize }>`
 	display: block;
 	font-family: 'GmarketSansMedium';
 	font-size: 16px;
@@ -201,6 +228,16 @@ export const Name = styled.span`
 	> span {
 		font-size: 12px;
 	}
-`;
 
-// export const Info = styled.div``
+	${({ size }) => {
+		if (size === ESize.Small) {
+			return css`
+				font-size: 14px;
+
+				> span {
+					font-size: 10px;
+				}
+			`;
+		}
+	}}
+`;

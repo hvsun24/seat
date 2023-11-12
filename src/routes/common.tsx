@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from '../App';
-import Seat from '../page/seat';
+import Seat from '../page/seat/seat';
+import TotalSeat from '../page/totalSeat/totalSeat';
 
 const router = createBrowserRouter([
 	{
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
 			{
 				path: '',
 				element: <Seat />,
+			},
+			{
+				path: 'total',
+				element: <TotalSeat />,
 			},
 		],
 	},

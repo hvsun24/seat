@@ -3,8 +3,14 @@ export interface ISeat {
 	position: string;
 	part: ERoleType;
 	label: string;
-	web: string;
+	imageUrl: string;
 	page: string;
+}
+
+export enum ESize {
+	Large = 'LARGE',
+	Medium = 'MEDIUM',
+	Small = 'SMALL',
 }
 
 export enum ERoleType {
@@ -13,5 +19,5 @@ export enum ERoleType {
 	Design = 'Design',
 	Backend = 'Backend',
 	Frontend = 'Frontend',
-	Plan = 'Planner',
+	Plan = 'Plan',
 }
