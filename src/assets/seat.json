@@ -1,32 +1,32 @@
 {
   "role": {
     "사업본부": {
-      "color": "red",
-      "backgroundColor": "blue"
+      "color": "#717171",
+      "backgroundColor": "#f6f6f6"
     },
     "고객경험부문": {
-      "color": "yellow",
-      "backgroundColor": "green"
+      "color": "#f77",
+      "backgroundColor": "#ffefef"
     },
     "알앤디부문": {
-      "color": "red",
-      "backgroundColor": "blue"
+      "color": "#f98537",
+      "backgroundColor": "#fff5e4"
     },
     "마케팅부문": {
-      "color": "red",
-      "backgroundColor": "blue"
+      "color": "#8679db",
+      "backgroundColor": "#f0ebff"
     },
     "경영관리부문": {
-      "color": "red",
-      "backgroundColor": "blue"
+      "color": "#f77",
+      "backgroundColor": "#fff5f6"
     },
     "컨시어지사업부": {
-      "color": "red",
-      "backgroundColor": "blue"
+      "color": "#49a5d3",
+      "backgroundColor": "#effafc"
     },
     "공석": {
-      "color": "red",
-      "backgroundColor": "blue"
+      "color": "#49a5d3",
+      "backgroundColor": "#e8fcff"
     }
   },
   "seat": {
@@ -156,8 +156,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "알앤디부문",
-          "label": "R&D부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -165,8 +165,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "알앤디부문",
-          "label": "R&D부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -174,8 +174,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "알앤디부문",
-          "label": "R&D부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -235,8 +235,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "경영관리부문",
-          "label": "경영관리부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -244,8 +244,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "경영관리부문",
-          "label": "경영관리부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -253,8 +253,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "경영관리부문",
-          "label": "경영관리부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -314,8 +314,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "경영관리부문",
-          "label": "경영관리부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -323,8 +323,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "경영관리부문",
-          "label": "경영관리부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -332,8 +332,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "경영관리부문",
-          "label": "경영관리부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -393,8 +393,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "경영관리부문",
-          "label": "경영관리부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -402,8 +402,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "컨시어지사업부",
-          "label": "컨시어지사업부",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -411,8 +411,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "컨시어지사업부",
-          "label": "컨시어지사업부",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -481,8 +481,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "경영관리부문",
-          "label": "경영관리부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"
@@ -490,8 +490,8 @@
         {
           "name": "신애정",
           "position": "매니저",
-          "part": "경영관리부문",
-          "label": "경영관리부문",
+          "part": "사업본부",
+          "label": "사업본부",
           "imageUrl":
           "https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2",
           "page": "https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f"

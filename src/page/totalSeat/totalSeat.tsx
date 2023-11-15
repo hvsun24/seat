@@ -4,6 +4,10 @@ import { ESize, ETotalRoleType, ITotalSeat } from '../interface';
 import EmptyImage from '../../assets/images/basic.png';
 import seatInfo from '../../assets/seat.json';
 
+export let RoleTheme = {} as {
+	[key in ETotalRoleType]: { color: string; backgroundColor: string };
+};
+
 function SeatController({
 	type,
 	member,
@@ -57,7 +61,9 @@ function TotalSeat() {
 	const [rightSeats, setRightSeats] = useState<{ [key: string]: ITotalSeat[] }>(
 		seatInfo.seat.side.right as { [key: string]: ITotalSeat[] },
 	);
-	const [role, setRole] = useState(null);
+
+	// TODO: 임시 적용, 추후 수정
+	RoleTheme = seatInfo.role;
 
 	useEffect(() => {
 		// void seatInfoDownload();
@@ -74,7 +80,7 @@ function TotalSeat() {
 				setCenterSeats(data.seat.center);
 				setRightSeats(data.seat.side.right);
 				setLeftSeats(data.seat.side.left);
-				setRole(data.role);
+				RoleTheme = data.role;
 			} // 결과 저장
 		};
 	};

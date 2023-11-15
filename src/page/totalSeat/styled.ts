@@ -1,36 +1,6 @@
 import styled, { css } from 'styled-components';
 import { ESize, ETotalRoleType } from '../interface';
-
-export const RoleTheme: { [key in ETotalRoleType]: { color: string; backgroundColor: string } } = {
-	[ETotalRoleType.사업본부]: {
-		color: '#f77',
-		backgroundColor: '#ffefef',
-	},
-	[ETotalRoleType.고객경험부문]: {
-		color: '#f77',
-		backgroundColor: '#ffefef',
-	},
-	[ETotalRoleType.알앤디부문]: {
-		color: '#f98537',
-		backgroundColor: '#fff5e4',
-	},
-	[ETotalRoleType.마케팅부문]: {
-		color: '#8679db',
-		backgroundColor: '#f0ebff',
-	},
-	[ETotalRoleType.경영관리부문]: {
-		color: '#f77',
-		backgroundColor: '#fff5f6',
-	},
-	[ETotalRoleType.컨시어지사업부]: {
-		color: '#49a5d3',
-		backgroundColor: '#effafc',
-	},
-	[ETotalRoleType.공석]: {
-		color: '#49a5d3',
-		backgroundColor: '#e8fcff',
-	},
-};
+import { RoleTheme } from './totalSeat';
 
 export const SeatsWrap = styled.div`
 	@font-face {
