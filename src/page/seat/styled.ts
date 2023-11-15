@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { ERoleType, ESize } from './interface';
+import { ERoleType, ESize } from '../interface';
 
 export const RoleTheme: { [key in ERoleType]: { color: string; backgroundColor: string } } = {
 	[ERoleType.Empty]: {
@@ -40,7 +40,7 @@ export const Seats = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 80px;
+	justify-content: center;
 	height: 100vh;
 	flex-wrap: wrap;
 	margin: 0 auto;
@@ -149,8 +149,8 @@ export const SeatBox = styled.div<{ role?: ERoleType; isNew?: boolean; size: ESi
 	${({ size }) => {
 		if (size === ESize.Small) {
 			return css`
-				width: 140px;
-				height: 55px;
+				width: 130px;
+				height: 40px;
 			`;
 		}
 	}}
@@ -179,8 +179,8 @@ export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 	${({ size }) => {
 		if (size === ESize.Small) {
 			return css`
-				width: 40px;
-				height: 40px;
+				width: 35px;
+				height: 35px;
 			`;
 		}
 	}}
@@ -211,7 +211,7 @@ export const Role = styled.span<{ role: ERoleType; size: ESize }>`
 		if (size === ESize.Small) {
 			return css`
 				font-size: 10px;
-				margin-bottom: 3px;
+				margin-bottom: 0;
 			`;
 		}
 	}}
@@ -232,7 +232,7 @@ export const Name = styled.span<{ size: ESize }>`
 	${({ size }) => {
 		if (size === ESize.Small) {
 			return css`
-				font-size: 14px;
+				font-size: 13px;
 
 				> span {
 					font-size: 10px;

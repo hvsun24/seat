@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { seats } from '../../assets/seat';
-import * as S from '../styled';
+import * as S from './styled';
 import { ERoleType, ESize, ISeat } from '../interface';
 import EmptyImage from '../../assets/images/basic.png';
 
