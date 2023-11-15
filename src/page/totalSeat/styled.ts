@@ -58,14 +58,37 @@ export const SeatsWrap = styled.div`
 	user-select: none;
 `;
 
-export const RoomWrap = styled.div`
+export const RoomWrap = styled.div<{ width?: number; vertical?: boolean }>`
 	display: flex;
-	gap: 10px;
+	column-gap: 7px;
+
+	${({ width }) =>
+		width &&
+		css`
+			width: ${width}px;
+		`}
+
+	${({ vertical }) =>
+		vertical &&
+		css`
+			flex-flow: column;
+		`}
 `;
 
-export const Room = styled.div<{ height?: number }>`
+export const Empty = styled.div`
 	width: 100%;
-	height: 110px;
+	height: 105px;
+`;
+
+export const Room = styled.div<{
+	width?: number;
+	height?: number;
+	bottomGap?: number;
+	absolute?: boolean;
+	coordinate?: { top: any; left: any; right: any; bottom: any };
+}>`
+	width: 100%;
+	height: 107px;
 	border-radius: 14px;
 	justify-content: center;
 	background-color: rgba(255, 255, 255, 0.3);
@@ -80,16 +103,40 @@ export const Room = styled.div<{ height?: number }>`
 		font-size: 14px;
 		letter-spacing: -0.2px;
 		color: #bebebe;
+		height: 100%;
 	}
+
+	${({ bottomGap }) =>
+		bottomGap &&
+		css`
+			margin-bottom: ${bottomGap}px;
+		`}
+
+	${({ width }) =>
+		width &&
+		css`
+			width: ${width}px;
+		`}
 
 	${({ height }) =>
 		height &&
 		css`
 			height: ${height}px;
 		`}
+
+	${({ coordinate }) =>
+		coordinate &&
+		css`
+			position: absolute;
+			top: ${coordinate.top}px;
+			left: ${coordinate.left}px;
+			right: ${coordinate.right}px;
+			bottom: ${coordinate.bottom}px;
+		`}
 `;
 
 export const RightSeats = styled.div<{ type?: string }>`
+	position: relative;
 	height: 850px;
 	display: flex;
 	flex-direction: column;

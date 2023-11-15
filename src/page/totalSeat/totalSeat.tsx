@@ -82,18 +82,20 @@ function TotalSeat() {
 	return (
 		<S.SeatsWrap>
 			<S.Seats type="left">
-				<S.Room>
-					<span>대표이사실</span>
-				</S.Room>
-				<S.Room>
-					<span>1번 회의실</span>
-				</S.Room>
-				<S.Room>
-					<span>2번 회의실</span>
-				</S.Room>
-				<S.Room>
-					<span>3번 회의실</span>
-				</S.Room>
+				<S.RoomWrap vertical={true}>
+					<S.Room bottomGap={7}>
+						<span>대표이사실</span>
+					</S.Room>
+					<S.Room bottomGap={7}>
+						<span>1번 회의실</span>
+					</S.Room>
+					<S.Room bottomGap={7}>
+						<span>2번 회의실</span>
+					</S.Room>
+					<S.Room>
+						<span>3번 회의실</span>
+					</S.Room>
+				</S.RoomWrap>
 				<div>
 					{Object.values(leftSeats).map(obj => {
 						return (
@@ -124,15 +126,15 @@ function TotalSeat() {
 
 			<S.RightSeats>
 				<div>
-					<S.RoomWrap>
-						<S.Room>
+					<S.RoomWrap width={400}>
+						<S.Room bottomGap={7}>
 							<span>펫룸</span>
 						</S.Room>
-						<S.Room>
+						<S.Room bottomGap={7}>
 							<span>창고</span>
 						</S.Room>
 					</S.RoomWrap>
-					<S.RoomWrap>
+					<S.RoomWrap width={400}>
 						<S.Room>
 							<span>컨퍼런스룸</span>
 						</S.Room>
@@ -143,27 +145,49 @@ function TotalSeat() {
 					{Object.values(rightSeats).map((obj, index) => {
 						return (
 							<S.SeatBoxWrap>
-								{(index === 2 || index === 3) && (
-									<S.RoomWrap>
-										<S.Room height={105}>
-											<span>방1</span>
-										</S.Room>
-									</S.RoomWrap>
-								)}
-
 								{obj.map((member, index) => {
 									return <SeatController type="right" member={member} index={index} />;
 								})}
 
-								{(index === 0 || index === 1) && (
-									<S.Room height={105}>
-										<span>R&D옆 회의실</span>
-									</S.Room>
-								)}
+								{(index === 0 || index === 1) && <S.Empty />}
 							</S.SeatBoxWrap>
 						);
 					})}
 				</S.Seats>
+
+				<S.Room
+					width={223}
+					height={105}
+					absolute={true}
+					coordinate={{ top: 'unset', left: 0, right: 'unset', bottom: 0 }}
+				>
+					<span>4번 회의실</span>
+				</S.Room>
+
+				<S.Room
+					width={275}
+					height={156}
+					absolute={true}
+					coordinate={{ top: 397, left: 230, right: 'unset', bottom: 0 }}
+				>
+					<span>5번 회의실</span>
+				</S.Room>
+				<S.Room
+					width={275}
+					height={156}
+					absolute={true}
+					coordinate={{ top: 397, left: 513, right: 'unset', bottom: 0 }}
+				>
+					<span>6번 회의실</span>
+				</S.Room>
+				<S.Room
+					width={558}
+					height={48}
+					absolute={true}
+					coordinate={{ top: 560, left: 230, right: 'unset', bottom: 0 }}
+				>
+					<span>창고</span>
+				</S.Room>
 			</S.RightSeats>
 		</S.SeatsWrap>
 	);
