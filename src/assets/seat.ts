@@ -155,7 +155,14 @@ export const seats = {
 					'https://wefun-platform.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2Fddd2c586-e9d1-411d-a35b-8ed258aae919%2FUntitled.png?table=block&id=a423ee99-af04-4a7f-a488-9cca39d5065e&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-5e94065062e448979ba871b9e5abd6f3?pvs=4',
 			},
-			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
+			{
+				name: '',
+				position: '',
+				part: ERoleType.Other,
+				label: '마케팅부문',
+				imageUrl: '',
+				page: '',
+			},
 		],
 		'ROW-4': [
 			{
