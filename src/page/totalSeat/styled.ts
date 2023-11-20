@@ -288,8 +288,11 @@ export const legendWrap = styled.div`
 	right: 0;
 	display: flex;
 	flex-flow: column;
-	row-gap: 5px;
-	padding-top: 20px;
+	row-gap: 8px;
+	background-color: #fff;
+	padding: 18px 20px;
+	border: 1px solid #e8e8e8;
+	border-radius: 10px;
 `;
 
 export const legend = styled.div<{ color: string; borderColor: string }>`
@@ -304,17 +307,17 @@ export const legend = styled.div<{ color: string; borderColor: string }>`
 			width: 15px;
 			height: 15px;
 			border-radius: 50%;
-			margin-right: 5px;
+			margin-right: 6px;
 
 			${({ borderColor }) => {
 				return css`
-					border: 2px solid ${borderColor};
+					border: 4px solid ${borderColor};
 				`;
 			}};
 
 			${({ color }) => {
 				return css`
-					background-color: ${color};
+					color: ${color};
 				`;
 			}};
 		}
