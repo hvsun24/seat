@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import * as S from './styled';
 import { ESize, ETotalRoleType, ITotalSeat } from '../interface';
 import EmptyImage from '../../assets/images/basic.png';
-import seatInfo from '../../assets/seat.json';
 
 export let RoleTheme = {} as {
 	[key in ETotalRoleType]: { color: string; backgroundColor: string };
@@ -53,20 +52,17 @@ function SeatController({
 
 function TotalSeat() {
 	const [centerSeats, setCenterSeats] = useState<{ [key: string]: ITotalSeat[] }>(
-		seatInfo.seat.center as { [key: string]: ITotalSeat[] },
+		{} as { [key: string]: ITotalSeat[] },
 	);
 	const [leftSeats, setLeftSeats] = useState<{ [key: string]: ITotalSeat[] }>(
-		seatInfo.seat.side.left as { [key: string]: ITotalSeat[] },
+		{} as { [key: string]: ITotalSeat[] },
 	);
 	const [rightSeats, setRightSeats] = useState<{ [key: string]: ITotalSeat[] }>(
-		seatInfo.seat.side.right as { [key: string]: ITotalSeat[] },
+		{} as { [key: string]: ITotalSeat[] },
 	);
 
-	// TODO: 임시 적용, 추후 수정
-	RoleTheme = seatInfo.role;
-
 	useEffect(() => {
-		// void seatInfoDownload();
+		void seatInfoDownload();
 	}, []);
 
 	const seatInfoDownload = async () => {
