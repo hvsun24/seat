@@ -70,9 +70,9 @@ export const Room = styled.div<{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 14px;
+		font-size: 15px;
 		letter-spacing: -0.2px;
-		color: #bebebe;
+		color: #b6b6b6;
 		height: 100%;
 	}
 
@@ -88,13 +88,13 @@ export const Room = styled.div<{
 			width: ${width}px;
 		`}
 
-	${({ height }) =>
+  ${({ height }) =>
 		height &&
 		css`
 			height: ${height}px;
 		`}
 
-	${({ coordinate }) =>
+  ${({ coordinate }) =>
 		coordinate &&
 		css`
 			position: absolute;
@@ -281,6 +281,43 @@ export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 
 export const Info = styled.div`
 	flex: 1;
+`;
+
+export const legendWrap = styled.div`
+	position: absolute;
+	right: 0;
+	display: flex;
+	flex-flow: column;
+	row-gap: 5px;
+`;
+
+export const legend = styled.div<{ color: string; borderColor: string }>`
+	> span {
+		display: flex;
+		font-size: 13px;
+		letter-spacing: -0.2px;
+		color: #717171;
+
+		> span {
+			display: inline-block;
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			margin-right: 5px;
+
+			${({ borderColor }) => {
+				return css`
+					border: 2px solid ${borderColor};
+				`;
+			}};
+
+			${({ color }) => {
+				return css`
+					background-color: ${color};
+				`;
+			}};
+		}
+	}
 `;
 
 export const Role = styled.span<{ role: ETotalRoleType; size: ESize }>`

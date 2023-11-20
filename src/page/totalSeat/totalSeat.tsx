@@ -77,6 +77,7 @@ function TotalSeat() {
 				setRightSeats(data.seat.side.right);
 				setLeftSeats(data.seat.side.left);
 				RoleTheme = data.role;
+				console.log('[Object.entries(RoleTheme)] result >>> ', Object.entries(RoleTheme));
 			} // 결과 저장
 		};
 	};
@@ -142,6 +143,18 @@ function TotalSeat() {
 						</S.Room>
 					</S.RoomWrap>
 				</div>
+				<S.legendWrap>
+					{Object.entries(RoleTheme).map(([name, colorInfo]) => {
+						return (
+							<S.legend color={colorInfo.backgroundColor} borderColor={colorInfo.color}>
+								<span>
+									<span />
+									{name}
+								</span>
+							</S.legend>
+						);
+					})}
+				</S.legendWrap>
 
 				<S.Seats>
 					{Object.values(rightSeats).map((obj, index) => {
@@ -158,7 +171,7 @@ function TotalSeat() {
 				</S.Seats>
 
 				<S.Room
-					width={223}
+					width={220}
 					height={105}
 					absolute={true}
 					coordinate={{ top: 'unset', left: 0, right: 'unset', bottom: 0 }}
