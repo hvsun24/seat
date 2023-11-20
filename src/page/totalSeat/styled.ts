@@ -289,6 +289,7 @@ export const legendWrap = styled.div`
 	display: flex;
 	flex-flow: column;
 	row-gap: 5px;
+	padding-top: 20px;
 `;
 
 export const legend = styled.div<{ color: string; borderColor: string }>`
