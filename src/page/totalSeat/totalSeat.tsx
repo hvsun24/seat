@@ -66,7 +66,7 @@ function TotalSeat() {
 	}, []);
 
 	const seatInfoDownload = async () => {
-		const res = await fetch('https://image.snack24h.com/static/files/seat.json');
+		const res = await fetch(`https://image.snack24h.com/static/files/seat.json?${Date.now()}`);
 		const blob = await res.blob();
 		const reader = new FileReader();
 		reader.readAsText(blob, 'UTF-8');
