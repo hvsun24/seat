@@ -77,6 +77,8 @@ function TotalSeat() {
 				setRightSeats(data.seat.right);
 				setLeftSeats(data.seat.left);
 				RoleTheme = data.role;
+
+				console.log('[data] result >>> ', data);
 			} // 결과 저장
 		};
 	};
