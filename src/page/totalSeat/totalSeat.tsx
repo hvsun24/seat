@@ -73,12 +73,12 @@ function TotalSeat() {
 		reader.onload = () => {
 			if (typeof reader.result === 'string') {
 				const data = JSON.parse(reader.result);
+				console.log('[data] result >>> ', data);
+
 				setCenterSeats(data.seat.center);
 				setRightSeats(data.seat.right);
 				setLeftSeats(data.seat.left);
 				RoleTheme = data.role;
-
-				console.log('[data] result >>> ', data);
 			} // 결과 저장
 		};
 	};
