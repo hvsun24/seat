@@ -74,10 +74,9 @@ function TotalSeat() {
 			if (typeof reader.result === 'string') {
 				const data = JSON.parse(reader.result);
 				setCenterSeats(data.seat.center);
-				setRightSeats(data.seat.side.right);
-				setLeftSeats(data.seat.side.left);
+				setRightSeats(data.seat.right);
+				setLeftSeats(data.seat.left);
 				RoleTheme = data.role;
-				console.log('[Object.entries(RoleTheme)] result >>> ', Object.entries(RoleTheme));
 			} // 결과 저장
 		};
 	};
