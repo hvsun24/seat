@@ -96,7 +96,7 @@ function TotalSeat() {
 					<S.Room margin="0 0 -3px 0">
 						<span>2번 회의실</span>
 					</S.Room>
-					<S.Room margin="0 0 10px 0">
+					<S.Room margin="0 0 13px 0">
 						<span>3번 회의실</span>
 					</S.Room>
 				</S.RoomWrap>
@@ -111,7 +111,7 @@ function TotalSeat() {
 						);
 					})}
 				</div>
-				<S.Room margin="10px 0 0 0">
+				<S.Room margin="13px 0 0 0">
 					<span>휴게실</span>
 				</S.Room>
 			</S.Seats>
@@ -172,8 +172,8 @@ function TotalSeat() {
 				</S.Seats>
 
 				<S.Room
-					width={220}
-					height={105}
+					width={222}
+					height={106}
 					absolute={true}
 					coordinate={{ top: 'unset', left: 0, right: 'unset', bottom: 0 }}
 				>
@@ -184,7 +184,7 @@ function TotalSeat() {
 					width={271}
 					height={148}
 					absolute={true}
-					coordinate={{ top: 370, left: 230, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 376, left: 230, right: 'unset', bottom: 0 }}
 				>
 					<span>5번 회의실</span>
 				</S.Room>
@@ -192,15 +192,15 @@ function TotalSeat() {
 					width={272}
 					height={148}
 					absolute={true}
-					coordinate={{ top: 370, left: 498, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 376, left: 498, right: 'unset', bottom: 0 }}
 				>
 					<span>6번 회의실</span>
 				</S.Room>
 				<S.Room
 					width={540}
-					height={55}
+					height={58}
 					absolute={true}
-					coordinate={{ top: 515, left: 230, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 521, left: 230, right: 'unset', bottom: 0 }}
 				>
 					<span>창고</span>
 				</S.Room>

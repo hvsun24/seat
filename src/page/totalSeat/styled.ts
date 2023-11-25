@@ -106,7 +106,7 @@ export const Room = styled.div<{
 
 export const RightSeats = styled.div<{ type?: string }>`
 	position: relative;
-	height: 790px;
+	height: 802px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -114,7 +114,7 @@ export const RightSeats = styled.div<{ type?: string }>`
 
 export const Seats = styled.div<{ type?: string }>`
 	display: flex;
-	//gap: 3px;
+	gap: 1px;
 
 	${({ type }) => {
 		if (type === 'left') {
@@ -124,7 +124,7 @@ export const Seats = styled.div<{ type?: string }>`
 
 				> div {
 					display: flex;
-					//column-gap: 3px;
+					gap: 1px;
 				}
 			`;
 		}
@@ -135,6 +135,7 @@ export const SeatBoxWrap = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+	gap: 1px;
 `;
 
 export const SeatBox = styled.div<{
@@ -225,7 +226,7 @@ export const SeatBox = styled.div<{
 				// color: ${RoleTheme[role].color};
 				//border: 3px solid #fff;
 				//border: 3px solid ${RoleTheme[role].backgroundColor};
-				// background-color: ${RoleTheme[role].backgroundColor};
+				//background-color: ${RoleTheme[role].backgroundColor};
 			`;
 		}
 	}}
