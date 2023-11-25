@@ -87,16 +87,16 @@ function TotalSeat() {
 		<S.SeatsWrap>
 			<S.Seats type="left">
 				<S.RoomWrap vertical={true}>
-					<S.Room bottomGap={7}>
+					<S.Room margin="0 0 -3px 0">
 						<span>대표이사실</span>
 					</S.Room>
-					<S.Room bottomGap={7}>
+					<S.Room margin="0 0 -3px 0">
 						<span>1번 회의실</span>
 					</S.Room>
-					<S.Room bottomGap={7}>
+					<S.Room margin="0 0 -3px 0">
 						<span>2번 회의실</span>
 					</S.Room>
-					<S.Room>
+					<S.Room margin="0 0 10px 0">
 						<span>3번 회의실</span>
 					</S.Room>
 				</S.RoomWrap>
@@ -111,7 +111,7 @@ function TotalSeat() {
 						);
 					})}
 				</div>
-				<S.Room>
+				<S.Room margin="10px 0 0 0">
 					<span>휴게실</span>
 				</S.Room>
 			</S.Seats>
@@ -131,10 +131,10 @@ function TotalSeat() {
 			<S.RightSeats>
 				<div>
 					<S.RoomWrap width={400}>
-						<S.Room bottomGap={7}>
+						<S.Room margin="0 0 -3px 0">
 							<span>펫룸</span>
 						</S.Room>
-						<S.Room bottomGap={7}>
+						<S.Room margin="0 0 -3px -3px">
 							<span>창고</span>
 						</S.Room>
 					</S.RoomWrap>
@@ -181,26 +181,26 @@ function TotalSeat() {
 				</S.Room>
 
 				<S.Room
-					width={275}
-					height={156}
+					width={271}
+					height={148}
 					absolute={true}
-					coordinate={{ top: 397, left: 230, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 370, left: 230, right: 'unset', bottom: 0 }}
 				>
 					<span>5번 회의실</span>
 				</S.Room>
 				<S.Room
-					width={275}
-					height={156}
+					width={272}
+					height={148}
 					absolute={true}
-					coordinate={{ top: 397, left: 513, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 370, left: 498, right: 'unset', bottom: 0 }}
 				>
 					<span>6번 회의실</span>
 				</S.Room>
 				<S.Room
-					width={558}
-					height={48}
+					width={540}
+					height={55}
 					absolute={true}
-					coordinate={{ top: 560, left: 230, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 515, left: 230, right: 'unset', bottom: 0 }}
 				>
 					<span>창고</span>
 				</S.Room>

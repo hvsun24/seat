@@ -30,7 +30,6 @@ export const SeatsWrap = styled.div`
 
 export const RoomWrap = styled.div<{ width?: number; vertical?: boolean }>`
 	display: flex;
-	column-gap: 7px;
 
 	${({ width }) =>
 		width &&
@@ -47,19 +46,19 @@ export const RoomWrap = styled.div<{ width?: number; vertical?: boolean }>`
 
 export const Empty = styled.div`
 	width: 100%;
-	height: 105px;
+	height: 100px;
 `;
 
 export const Room = styled.div<{
 	width?: number;
 	height?: number;
-	bottomGap?: number;
+	margin?: string;
 	absolute?: boolean;
 	coordinate?: { top: any; left: any; right: any; bottom: any };
 }>`
 	width: 100%;
-	height: 107px;
-	border-radius: 14px;
+	height: 106px;
+	//border-radius: 14px;
 	justify-content: center;
 	background-color: rgba(255, 255, 255, 0.3);
 	border: 3px solid white;
@@ -76,10 +75,10 @@ export const Room = styled.div<{
 		height: 100%;
 	}
 
-	${({ bottomGap }) =>
-		bottomGap &&
+	${({ margin }) =>
+		margin &&
 		css`
-			margin-bottom: ${bottomGap}px;
+			margin: ${margin};
 		`}
 
 	${({ width }) =>
@@ -107,7 +106,7 @@ export const Room = styled.div<{
 
 export const RightSeats = styled.div<{ type?: string }>`
 	position: relative;
-	height: 850px;
+	height: 790px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -115,28 +114,27 @@ export const RightSeats = styled.div<{ type?: string }>`
 
 export const Seats = styled.div<{ type?: string }>`
 	display: flex;
-	gap: 3px;
+	//gap: 3px;
 
 	${({ type }) => {
 		if (type === 'left') {
 			return css`
 				flex-direction: column;
-				row-gap: 7px;
+				//row-gap: 7px;
 
 				> div {
 					display: flex;
-					column-gap: 3px;
+					//column-gap: 3px;
 				}
 			`;
 		}
-	}}
+	}};
 `;
 
 export const SeatBoxWrap = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	gap: 5px;
 `;
 
 export const SeatBox = styled.div<{
@@ -151,10 +149,9 @@ export const SeatBox = styled.div<{
 	width: 170px;
 	height: 72px;
 	background-color: white;
-	border-radius: 10px;
-	box-shadow:
-		rgba(0, 0, 0, 0.05) 0px 0px 5px 0px,
-		rgba(0, 0, 0, 0.05) 0px 0px 1px 0px;
+	//box-shadow:
+	//	rgba(0, 0, 0, 0.05) 0px 0px 5px 0px,
+	//	rgba(0, 0, 0, 0.05) 0px 0px 1px 0px;
 	cursor: pointer;
 	column-gap: 5px;
 
@@ -227,8 +224,8 @@ export const SeatBox = styled.div<{
 			return css`
 				// color: ${RoleTheme[role].color};
 				//border: 3px solid #fff;
-				border: 3px solid ${RoleTheme[role].backgroundColor};
-				//background-color: ${RoleTheme[role].backgroundColor};
+				//border: 3px solid ${RoleTheme[role].backgroundColor};
+				// background-color: ${RoleTheme[role].backgroundColor};
 			`;
 		}
 	}}
@@ -359,7 +356,6 @@ export const Name = styled.span<{ role: ETotalRoleType; size: ESize }>`
 
 	> span {
 		display: block;
-		margin-top: 2px;
 		font-size: 12px;
 		line-height: 14px;
 	}
