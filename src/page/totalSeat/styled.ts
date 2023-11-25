@@ -157,8 +157,6 @@ export const SeatBox = styled.div<{
 	column-gap: 5px;
 
 	&:hover {
-		transform: rotate(-3deg);
-
 		${({ isNew }) =>
 			isNew &&
 			css`
@@ -179,12 +177,10 @@ export const SeatBox = styled.div<{
 					text-align: center;
 					top: -54px;
 					right: -1px;
-					transform: rotate(3deg);
 				}
 
 				&:after {
 					position: absolute;
-					transform: rotate(-45deg);
 					content: '';
 					width: 13px;
 					background-color: #ffe86a;
@@ -223,6 +219,12 @@ export const SeatBox = styled.div<{
 			// `;
 		} else {
 			return css`
+				transition: 0.1s background-color ease-in;
+
+				&:hover {
+					background-color: ${RoleTheme[role].backgroundColor};
+				}
+
 				// color: ${RoleTheme[role].color};
 				//border: 3px solid #fff;
 				//border: 3px solid ${RoleTheme[role].backgroundColor};
