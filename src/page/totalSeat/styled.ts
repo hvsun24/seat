@@ -218,7 +218,7 @@ export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	margin: 0 7px 0 12px;
+	margin: 0 7px 0 10px;
 
 	${({ isNew }) =>
 		isNew &&
