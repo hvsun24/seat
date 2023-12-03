@@ -55,6 +55,7 @@ function SeatController({
 				isNew={member.imageUrl.length === 0}
 				onClick={() => window.open(member.page)}
 				addMargin={adjustGapIndex.includes(index)}
+				position={member.position}
 			>
 				<S.Image size={ESize.Small} isNew={member.imageUrl.length === 0}>
 					<img

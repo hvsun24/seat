@@ -151,6 +151,7 @@ export const SeatBox = styled.div<{
 	isNew?: boolean;
 	size: ESize;
 	addMargin?: Boolean;
+	position?: string;
 }>`
 	position: relative;
 	display: flex;
@@ -158,11 +159,10 @@ export const SeatBox = styled.div<{
 	width: 170px;
 	height: 72px;
 	background-color: white;
-	//box-shadow:
-	//	rgba(0, 0, 0, 0.05) 0px 0px 5px 0px,
-	//	rgba(0, 0, 0, 0.05) 0px 0px 1px 0px;
 	cursor: pointer;
 	column-gap: 5px;
+	transition: 0.1s background-color ease-in;
+	overflow: hidden;
 
 	${({ role }) => {
 		if (role === ETotalRoleType.공석) {
@@ -177,32 +177,15 @@ export const SeatBox = styled.div<{
 					color: #e4e4e4;
 				}
 			`;
-
-			// return css`
-			// 	justify-content: center;
-			// 	background-color: rgba(255, 255, 255, 0.3);
-			// 	border: 3px solid white;
-			// 	box-sizing: border-box;
-			// 	pointer-events: none;
-			//
-			// 	span {
-			// 		font-size: 14px;
-			// 		display: block;
-			// 		color: #d7d7d7;
-			// 	}
-			// `;
 		} else {
 			return css`
-				transition: 0.1s background-color ease-in;
+				&::before {
+					background-color: ${RoleTheme[role].color};
+				}
 
 				&:hover {
 					background-color: ${RoleTheme[role].backgroundColor};
 				}
-
-				// color: ${RoleTheme[role].color};
-				//border: 3px solid #fff;
-				//border: 3px solid ${RoleTheme[role].backgroundColor};
-				//background-color: ${RoleTheme[role].backgroundColor};
 			`;
 		}
 	}}
@@ -212,6 +195,23 @@ export const SeatBox = styled.div<{
 			return css`
 				width: 100px;
 				height: 50px;
+			`;
+		}
+	}}
+
+  ${({ position }) => {
+		if (position !== '' && position !== '매니저') {
+			return css`
+				&::before {
+					position: absolute;
+					display: block;
+					content: '';
+					//width: 15px;
+					//height: 20px;
+					//top: -9px;
+					//left: -7px;
+					//transform: rotate(45deg);
+				}
 			`;
 		}
 	}}
