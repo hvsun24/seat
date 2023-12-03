@@ -15,7 +15,7 @@ export const seats = {
 				name: '장문종',
 				position: '매니저',
 				part: ERoleType.Design,
-				label: 'Designer',
+				label: 'Design',
 				imageUrl:
 					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F8ba6ea7a-edcd-407f-9fb2-22bc33d90f5f%2F%25E1%2584%2589%25E1%2585%25A2_%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A6%25E1%2586%25A8%25E1%2584%2590%25E1%2585%25B3.png?table=block&id=bebc2592-a760-49cc-9d7c-d37cc24bfad5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=670&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-29ee90710d1343ff875ea4a4461a9dba?pvs=4',
@@ -24,7 +24,7 @@ export const seats = {
 				name: '장이지',
 				position: '팀장',
 				part: ERoleType.Design,
-				label: 'Designer',
+				label: 'Design',
 				imageUrl:
 					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F428f0887-dfa7-4542-8633-ebed6e308880%2FUntitled.png?table=block&id=399cceca-e298-4656-89a7-2986a0f2c4ec&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-0f51826439214db3988301ef61ac7787',
@@ -33,7 +33,7 @@ export const seats = {
 				name: '박빛나',
 				position: '매니저',
 				part: ERoleType.Design,
-				label: 'Designer',
+				label: 'Design',
 				imageUrl:
 					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F5c2d4399-33e2-48c5-97b9-dd447a851663%2F62cbce561.png?table=block&id=26f29b9a-7407-47a4-aefe-ed7ed5de16ba&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-56f1dbecd2b24175b62dd92ae5b0e074',
@@ -68,7 +68,7 @@ export const seats = {
 				name: '조아라',
 				position: '매니저',
 				part: ERoleType.Design,
-				label: 'Designer',
+				label: 'Design',
 				imageUrl:
 					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2Ffa85e718-1aff-4c8c-a61e-63c2a056da5d%2FUntitled.png?table=block&id=eb2bc409-a062-400b-a7e0-0c055b49d9a6&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-39859f42061a4109bfad3d10a1c76587?pvs=4',
@@ -86,7 +86,7 @@ export const seats = {
 				name: '한선우',
 				position: '매니저',
 				part: ERoleType.Design,
-				label: 'Designer',
+				label: 'Design',
 				imageUrl:
 					'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Faae0829a-a606-4b66-893c-791aaa5c107d%2F1675E655-0FEE-429A-8643-A7E5D5C81887.png?table=block&id=ae323864-efff-4dd0-9b36-8a48e7f3f3ef&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://wefun-platform.notion.site/about-358debbc18834f68a7b91b9d6ac0e2b9',
