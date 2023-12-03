@@ -347,7 +347,7 @@ export const Name = styled.span<{ role: ETotalRoleType; size: ESize }>`
 
 				> span {
 					font-size: 10px;
-					padding-left: 2px;
+					padding-left: 1px;
 					color: black;
 				}
 			`;

@@ -1,15 +1,34 @@
 import { useEffect, useState } from 'react';
 import * as S from './styled';
 import { ESize, ETotalRoleType, ITotalSeat } from '../interface';
-import EmptyImage1 from '../../assets/images/empty_01.png';
-import EmptyImage2 from '../../assets/images/empty_02.png';
-import EmptyImage3 from '../../assets/images/empty_03.png';
-import EmptyImage4 from '../../assets/images/empty_04.png';
-import EmptyImage5 from '../../assets/images/empty_05.png';
+
+import img_01 from '../../assets/images/empty_01.png';
+import img_02 from '../../assets/images/empty_02.png';
+import img_03 from '../../assets/images/empty_03.png';
+import img_04 from '../../assets/images/empty_04.png';
+import img_05 from '../../assets/images/empty_05.png';
+import img_06 from '../../assets/images/empty_06.png';
+import img_07 from '../../assets/images/empty_07.png';
+import img_08 from '../../assets/images/empty_08.png';
+import img_09 from '../../assets/images/empty_09.png';
+import img_10 from '../../assets/images/empty_10.png';
 
 export let RoleTheme = {} as {
 	[key in ETotalRoleType]: { color: string; backgroundColor: string };
 };
+
+const emptyImages = [
+	img_01,
+	img_02,
+	img_03,
+	img_04,
+	img_05,
+	img_06,
+	img_07,
+	img_08,
+	img_09,
+	img_10,
+];
 
 function SeatController({
 	type,
@@ -29,7 +48,6 @@ function SeatController({
 			</S.SeatBox>
 		);
 	} else {
-		const emptyImages = [EmptyImage1, EmptyImage2, EmptyImage3, EmptyImage4, EmptyImage5];
 		return (
 			<S.SeatBox
 				role={member.part}
@@ -40,7 +58,7 @@ function SeatController({
 			>
 				<S.Image size={ESize.Small} isNew={member.imageUrl.length === 0}>
 					<img
-						src={member.imageUrl.length === 0 ? emptyImages[getRandomInt(0, 5)] : member.imageUrl}
+						src={member.imageUrl.length === 0 ? emptyImages[getRandomInt(0, 10)] : member.imageUrl}
 					/>
 				</S.Image>
 				<S.Info>
