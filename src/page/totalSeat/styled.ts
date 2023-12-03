@@ -58,12 +58,12 @@ export const Room = styled.div<{
 }>`
 	width: 100%;
 	height: 106px;
-	//border-radius: 14px;
 	justify-content: center;
 	background-color: rgba(255, 255, 255, 0.3);
 	border: 3px solid white;
 	box-sizing: border-box;
 	pointer-events: none;
+	font-family: 'GmarketSansMedium';
 
 	> span {
 		display: flex;
@@ -248,6 +248,7 @@ export const Info = styled.div`
 `;
 
 export const legendWrap = styled.div`
+	font-family: 'GmarketSansMedium';
 	position: absolute;
 	right: 0;
 	display: flex;
@@ -274,13 +275,15 @@ export const legend = styled.div<{ color: string; borderColor: string }>`
 
 			${({ borderColor }) => {
 				return css`
-					border: 4px solid ${borderColor};
+					border: 3px solid ${borderColor};
+					//background-color: ${borderColor};
 				`;
 			}};
 
 			${({ color }) => {
 				return css`
 					background-color: ${color};
+					//border: 3px solid ${color};
 				`;
 			}};
 		}
