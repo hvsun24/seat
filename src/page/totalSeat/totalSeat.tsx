@@ -1,7 +1,11 @@
 import { useEffect, useState } from 'react';
 import * as S from './styled';
 import { ESize, ETotalRoleType, ITotalSeat } from '../interface';
-import EmptyImage from '../../assets/images/basic.png';
+import EmptyImage1 from '../../assets/images/empty_01.png';
+import EmptyImage2 from '../../assets/images/empty_02.png';
+import EmptyImage3 from '../../assets/images/empty_03.png';
+import EmptyImage4 from '../../assets/images/empty_04.png';
+import EmptyImage5 from '../../assets/images/empty_05.png';
 
 export let RoleTheme = {} as {
 	[key in ETotalRoleType]: { color: string; backgroundColor: string };
@@ -25,6 +29,7 @@ function SeatController({
 			</S.SeatBox>
 		);
 	} else {
+		const emptyImages = [EmptyImage1, EmptyImage2, EmptyImage3, EmptyImage4, EmptyImage5];
 		return (
 			<S.SeatBox
 				role={member.part}
@@ -34,7 +39,9 @@ function SeatController({
 				addMargin={adjustGapIndex.includes(index)}
 			>
 				<S.Image size={ESize.Small} isNew={member.imageUrl.length === 0}>
-					<img src={member.imageUrl.length === 0 ? EmptyImage : member.imageUrl} />
+					<img
+						src={member.imageUrl.length === 0 ? emptyImages[getRandomInt(0, 5)] : member.imageUrl}
+					/>
 				</S.Image>
 				<S.Info>
 					{/*<S.Role size={ESize.Small} role={member.part}>*/}
@@ -48,6 +55,12 @@ function SeatController({
 			</S.SeatBox>
 		);
 	}
+}
+
+function getRandomInt(min: number, max: number) {
+	min = Math.ceil(min);
+	max = Math.floor(max);
+	return Math.floor(Math.random() * (max - min)) + min;
 }
 
 function TotalSeat() {

@@ -156,41 +156,6 @@ export const SeatBox = styled.div<{
 	cursor: pointer;
 	column-gap: 5px;
 
-	&:hover {
-		${({ isNew }) =>
-			isNew &&
-			css`
-				&:before {
-					content: '인터뷰를 등록해주세요👏🏻\\A클릭 시 페이지로 이동합니다 :)';
-					white-space: pre;
-					pointer-events: none;
-					line-height: 18px;
-					background-color: #ffe86a;
-					width: 160px;
-					display: block;
-					position: absolute;
-					font-size: 14px;
-					padding: 12px 16px;
-					border-radius: 10px;
-					letter-spacing: -0.5px;
-					color: #424242;
-					text-align: center;
-					top: -54px;
-					right: -1px;
-				}
-
-				&:after {
-					position: absolute;
-					content: '';
-					width: 13px;
-					background-color: #ffe86a;
-					top: -2px;
-					height: 18px;
-					right: 34px;
-				}
-			`}
-	}
-
 	${({ role }) => {
 		if (role === ETotalRoleType.공석) {
 			return css`
@@ -253,14 +218,13 @@ export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	margin-left: 8px;
+	margin: 0 7px 0 12px;
 
 	${({ isNew }) =>
 		isNew &&
 		css`
 			width: 43px;
 			height: 43px;
-			margin: 0 7px 0 12px;
 		`}
 
 	img {
