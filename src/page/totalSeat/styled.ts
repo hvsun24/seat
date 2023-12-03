@@ -11,6 +11,14 @@ export const SeatsWrap = styled.div`
 		font-style: normal;
 	}
 
+	@font-face {
+		font-family: 'GmarketSansLight';
+		src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff')
+			format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -159,11 +167,12 @@ export const SeatBox = styled.div<{
 	${({ role }) => {
 		if (role === ETotalRoleType.공석) {
 			return css`
+				font-family: 'GmarketSansMedium';
 				justify-content: center;
 				pointer-events: none;
 
 				span {
-					font-size: 14px;
+					font-size: 13px;
 					display: block;
 					color: #e4e4e4;
 				}
