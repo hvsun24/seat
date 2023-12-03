@@ -46,7 +46,7 @@ export const RoomWrap = styled.div<{ width?: number; vertical?: boolean }>`
 
 export const Empty = styled.div`
 	width: 100%;
-	height: 100px;
+	height: 101px;
 `;
 
 export const Room = styled.div<{
@@ -201,7 +201,7 @@ export const SeatBox = styled.div<{
 	${({ size }) => {
 		if (size === ESize.Small) {
 			return css`
-				width: 110px;
+				width: 100px;
 				height: 50px;
 			`;
 		}
@@ -218,7 +218,7 @@ export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	margin: 0 7px 0 10px;
+	margin: 0 0px 0 10px;
 
 	${({ isNew }) =>
 		isNew &&
@@ -236,8 +236,8 @@ export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 	${({ size }) => {
 		if (size === ESize.Small) {
 			return css`
-				width: 35px;
-				height: 35px;
+				width: 32px;
+				height: 32px;
 			`;
 		}
 	}}

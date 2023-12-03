@@ -177,7 +177,6 @@ function TotalSeat() {
 								{obj.map((member, index) => {
 									return <SeatController type="right" member={member} index={index} />;
 								})}
-
 								{(index === 0 || index === 1) && <S.Empty />}
 							</S.SeatBoxWrap>
 						);
@@ -185,8 +184,8 @@ function TotalSeat() {
 				</S.Seats>
 
 				<S.Room
-					width={222}
-					height={106}
+					width={201}
+					height={101}
 					absolute={true}
 					coordinate={{ top: 'unset', left: 0, right: 'unset', bottom: 0 }}
 				>
@@ -194,26 +193,26 @@ function TotalSeat() {
 				</S.Room>
 
 				<S.Room
-					width={271}
+					width={247}
 					height={148}
 					absolute={true}
-					coordinate={{ top: 376, left: 230, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 376, left: 215, right: 'unset', bottom: 0 }}
 				>
 					<span>5번 회의실</span>
 				</S.Room>
 				<S.Room
-					width={272}
+					width={247}
 					height={148}
 					absolute={true}
-					coordinate={{ top: 376, left: 498, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 376, left: 459, right: 'unset', bottom: 0 }}
 				>
 					<span>6번 회의실</span>
 				</S.Room>
 				<S.Room
-					width={540}
+					width={491}
 					height={58}
 					absolute={true}
-					coordinate={{ top: 521, left: 230, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 521, left: 215, right: 'unset', bottom: 0 }}
 				>
 					<span>창고</span>
 				</S.Room>
