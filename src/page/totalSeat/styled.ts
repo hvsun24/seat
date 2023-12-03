@@ -255,7 +255,7 @@ export const legendWrap = styled.div`
 	row-gap: 8px;
 	background-color: #fff;
 	padding: 18px 20px;
-	border: 1px solid #e8e8e8;
+	border-radius: 10px;
 `;
 
 export const legend = styled.div<{ color: string; borderColor: string }>`
@@ -280,7 +280,7 @@ export const legend = styled.div<{ color: string; borderColor: string }>`
 
 			${({ color }) => {
 				return css`
-					color: ${color};
+					background-color: ${color};
 				`;
 			}};
 		}
