@@ -196,7 +196,7 @@ function TotalSeat() {
 					width={247}
 					height={148}
 					absolute={true}
-					coordinate={{ top: 376, left: 215, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 375, left: 215, right: 'unset', bottom: 0 }}
 				>
 					<span>5번 회의실</span>
 				</S.Room>
@@ -204,7 +204,7 @@ function TotalSeat() {
 					width={247}
 					height={148}
 					absolute={true}
-					coordinate={{ top: 376, left: 459, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 375, left: 459, right: 'unset', bottom: 0 }}
 				>
 					<span>6번 회의실</span>
 				</S.Room>
@@ -212,7 +212,7 @@ function TotalSeat() {
 					width={491}
 					height={58}
 					absolute={true}
-					coordinate={{ top: 521, left: 215, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 520, left: 215, right: 'unset', bottom: 0 }}
 				>
 					<span>창고</span>
 				</S.Room>
