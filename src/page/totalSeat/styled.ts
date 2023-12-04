@@ -228,6 +228,7 @@ export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 	height: 50px;
 	border-radius: 50%;
 	margin: 0 0px 0 6px;
+	padding-bottom: 2px;
 
 	${({ isNew }) =>
 		isNew &&
@@ -245,8 +246,8 @@ export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 	${({ size }) => {
 		if (size === ESize.Small) {
 			return css`
-				width: 32px;
-				height: 32px;
+				width: 30px;
+				height: 30px;
 			`;
 		}
 	}}
@@ -254,6 +255,7 @@ export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 
 export const Info = styled.div`
 	flex: 1;
+	padding-bottom: 2px;
 `;
 
 export const legendWrap = styled.div`
