@@ -203,7 +203,7 @@ function TotalSeat() {
 				</S.Seats>
 
 				<S.Room
-					width={201}
+					width={181}
 					height={101}
 					absolute={true}
 					coordinate={{ top: 'unset', left: 0, right: 'unset', bottom: 0 }}
