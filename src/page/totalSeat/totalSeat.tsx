@@ -212,26 +212,26 @@ function TotalSeat() {
 				</S.Room>
 
 				<S.Room
-					width={247}
+					width={220}
 					height={148}
 					absolute={true}
-					coordinate={{ top: 375, left: 215, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 375, left: 200, right: 'unset', bottom: 0 }}
 				>
 					<span>5번 회의실</span>
 				</S.Room>
 				<S.Room
-					width={247}
+					width={220}
 					height={148}
 					absolute={true}
-					coordinate={{ top: 375, left: 459, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 375, left: 417, right: 'unset', bottom: 0 }}
 				>
 					<span>6번 회의실</span>
 				</S.Room>
 				<S.Room
-					width={491}
+					width={437}
 					height={58}
 					absolute={true}
-					coordinate={{ top: 520, left: 215, right: 'unset', bottom: 0 }}
+					coordinate={{ top: 520, left: 200, right: 'unset', bottom: 0 }}
 				>
 					<span>창고</span>
 				</S.Room>

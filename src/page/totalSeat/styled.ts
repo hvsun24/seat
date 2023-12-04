@@ -193,7 +193,7 @@ export const SeatBox = styled.div<{
 	${({ size }) => {
 		if (size === ESize.Small) {
 			return css`
-				width: 100px;
+				width: 90px;
 				height: 50px;
 			`;
 		}
@@ -227,7 +227,7 @@ export const Image = styled.div<{ isNew?: boolean; size: ESize }>`
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	margin: 0 0px 0 10px;
+	margin: 0 0px 0 6px;
 
 	${({ isNew }) =>
 		isNew &&
