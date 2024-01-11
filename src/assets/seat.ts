@@ -197,7 +197,14 @@ export const seats = {
 			},
 		],
 		'ROW-5': [
-			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
+			{
+				name: '윤태성',
+				position: '매니저',
+				part: ERoleType.Backend,
+				label: 'Backend',
+				imageUrl: '',
+				page: 'https://www.notion.so/wefun-platform/about-9290e9010f1148d290503dc179e90066?pvs=4',
+			},
 			{
 				name: '김보민',
 				position: '매니저',
