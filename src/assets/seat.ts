@@ -139,7 +139,7 @@ export const seats = {
 			},
 			{
 				name: '정민식',
-				position: 'Unit장',
+				position: '유닛장',
 				part: ERoleType.Backend,
 				label: 'Backend',
 				imageUrl:
@@ -166,7 +166,7 @@ export const seats = {
 			},
 			{
 				name: '황도리',
-				position: 'Unit장',
+				position: '유닛장',
 				part: ERoleType.Backend,
 				label: 'Backend',
 				imageUrl:
