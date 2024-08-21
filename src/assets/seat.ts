@@ -126,7 +126,8 @@ export const seats = {
 				position: '매니저',
 				part: ERoleType.Frontend,
 				label: 'Frontend',
-				imageUrl: '',
+				imageUrl:
+					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F154fbf1f-1bb1-4f4e-b490-a2181fa4d339%2F%25E1%2584%2589%25E1%2585%25A2_%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A6%25E1%2586%25A8%25E1%2584%2590%25E1%2585%25B3.png?table=block&id=cb24dfb5-4876-4ee2-b0b8-223a84ef6a69&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=860&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-cdc4dc5e351c443db68c448e6e94f1be?pvs=4',
 			},
 			{
