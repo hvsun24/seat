@@ -80,27 +80,10 @@ export const seats = {
 					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2Ffa85e718-1aff-4c8c-a61e-63c2a056da5d%2FUntitled.png?table=block&id=eb2bc409-a062-400b-a7e0-0c055b49d9a6&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-39859f42061a4109bfad3d10a1c76587?pvs=4',
 			},
-
-			{
-				name: '박빛나',
-				position: '매니저',
-				part: ERoleType.Design,
-				label: 'Design',
-				imageUrl:
-					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F5c2d4399-33e2-48c5-97b9-dd447a851663%2F62cbce561.png?table=block&id=26f29b9a-7407-47a4-aefe-ed7ed5de16ba&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
-				page: 'https://www.notion.so/wefun-platform/about-56f1dbecd2b24175b62dd92ae5b0e074',
-			},
+			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
 		],
 		'ROW-3': [
-			{
-				name: '성태현',
-				position: '팀장',
-				part: ERoleType.Backend,
-				label: 'Backend',
-				imageUrl:
-					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F7e564790-205c-41cf-a133-8a6d627ef0c2%2F%25E1%2584%2589%25E1%2585%25A2_%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A6%25E1%2586%25A8%25E1%2584%2590%25E1%2585%25B3_(4).png?table=block&id=434e9f3a-c3f9-4598-8fe0-3e13884193c1&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=1680&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
-				page: 'https://wefun-platform.notion.site/about-c7866b1971164a1591ecdee814f30521',
-			},
+			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
 			{
 				name: '최상규',
 				position: '매니저',
@@ -110,7 +93,14 @@ export const seats = {
 					'https://wefun-platform.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2Fddd2c586-e9d1-411d-a35b-8ed258aae919%2FUntitled.png?table=block&id=a423ee99-af04-4a7f-a488-9cca39d5065e&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-5e94065062e448979ba871b9e5abd6f3?pvs=4',
 			},
-			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
+			{
+				name: '김진영',
+				position: '매니저',
+				part: ERoleType.Frontend,
+				label: 'Frontend',
+				imageUrl: '',
+				page: 'https://www.notion.so/wefun-platform/about-cdc4dc5e351c443db68c448e6e94f1be?pvs=4',
+			},
 			{
 				name: '선희빈',
 				position: '매니저',
@@ -130,17 +120,23 @@ export const seats = {
 				page: 'https://www.notion.so/wefun-platform/about-2b700d950f3a4af88d25281e8e36b016?pvs=4',
 			},
 			{
-				name: '윤태성',
+				name: '김영서',
 				position: '매니저',
-				part: ERoleType.Backend,
-				label: 'Backend',
-				imageUrl:
-					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F79eaa457-d285-4b1a-bc24-91067960ccac%2FUntitled.png?table=block&id=9e59d581-7994-4a68-9ddf-b85a0c460fca&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
-				page: 'https://wefun-platform.notion.site/about-9290e9010f1148d290503dc179e90066?pvs=4',
+				part: ERoleType.Frontend,
+				label: 'Frontend',
+				imageUrl: '',
+				page: 'https://www.notion.so/wefun-platform/about-658a45cafee54223b14fccf3ca5a266f?pvs=4',
 			},
 		],
 		'ROW-4': [
-			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
+			{
+				name: '유승호',
+				position: '매니저',
+				part: ERoleType.Backend,
+				label: 'Backend',
+				imageUrl: '',
+				page: 'https://www.notion.so/wefun-platform/about-a225591619d243f68f5b3e7d981bafa1?pvs=4',
+			},
 			{
 				name: '정민식',
 				position: 'Unit장',
@@ -185,6 +181,30 @@ export const seats = {
 				imageUrl:
 					'https://wefun-platform.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee4204ec-281d-47c0-97f7-721862eff354%2FUntitled.png?table=block&id=fa1ed381-e5c9-4c6d-ba55-d1e6839eabe5&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=480&userId=&cache=v2',
 				page: 'https://wefun-platform.notion.site/a6f181aef96b44ff8b95255afb062a2f',
+			},
+		],
+		'ROW-5': [
+			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
+			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
+			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
+			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
+			{
+				name: '윤태성',
+				position: '매니저',
+				part: ERoleType.Backend,
+				label: 'Backend',
+				imageUrl:
+					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F79eaa457-d285-4b1a-bc24-91067960ccac%2FUntitled.png?table=block&id=9e59d581-7994-4a68-9ddf-b85a0c460fca&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
+				page: 'https://wefun-platform.notion.site/about-9290e9010f1148d290503dc179e90066?pvs=4',
+			},
+			{
+				name: '성태현',
+				position: '팀장',
+				part: ERoleType.Backend,
+				label: 'Backend',
+				imageUrl:
+					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F7e564790-205c-41cf-a133-8a6d627ef0c2%2F%25E1%2584%2589%25E1%2585%25A2_%25E1%2584%2591%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A6%25E1%2586%25A8%25E1%2584%2590%25E1%2585%25B3_(4).png?table=block&id=434e9f3a-c3f9-4598-8fe0-3e13884193c1&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=1680&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
+				page: 'https://wefun-platform.notion.site/about-c7866b1971164a1591ecdee814f30521',
 			},
 		],
 	},
