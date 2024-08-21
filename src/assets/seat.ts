@@ -153,7 +153,8 @@ export const seats = {
 				position: '매니저',
 				part: ERoleType.Frontend,
 				label: 'Frontend',
-				imageUrl: '',
+				imageUrl:
+					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2F958a2739-07b8-489c-8393-bb14b41d4081%2F6383c40167a951cf-sticker.png?table=block&id=6db4d24a-9fac-4a5b-914a-bd3a2217f809&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-658a45cafee54223b14fccf3ca5a266f?pvs=4',
 			},
 		],
