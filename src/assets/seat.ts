@@ -91,6 +91,14 @@ export const seats = {
 				page: 'https://wefun-platform.notion.site/about-16df603f785b45f78f28522447e506cf',
 			},
 			{
+				name: '김윤아',
+				position: '매니저',
+				part: ERoleType.Design,
+				label: 'Design',
+				imageUrl: '',
+				page: '',
+			},
+			{
 				name: '한선우',
 				position: '매니저',
 				part: ERoleType.Design,
@@ -108,7 +116,6 @@ export const seats = {
 					'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa%2Ffa85e718-1aff-4c8c-a61e-63c2a056da5d%2FUntitled.png?table=block&id=eb2bc409-a062-400b-a7e0-0c055b49d9a6&spaceId=1ebe547d-01ab-4b0d-837b-fcfa2c6cadfa&width=840&userId=540037fd-ebf3-4717-baac-c94e2683b611&cache=v2',
 				page: 'https://www.notion.so/wefun-platform/about-39859f42061a4109bfad3d10a1c76587?pvs=4',
 			},
-			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
 		],
 		'ROW-3': [
 			{ name: '', position: '', part: ERoleType.Empty, label: '공석', imageUrl: '', page: '' },
