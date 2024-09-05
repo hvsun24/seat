@@ -96,7 +96,7 @@ export const seats = {
 				part: ERoleType.Design,
 				label: 'Design',
 				imageUrl: '',
-				page: '',
+				page: 'https://www.notion.so/wefun-platform/about-7487721ce1424474adbaf855cd7522b5?pvs=4',
 			},
 			{
 				name: '한선우',
